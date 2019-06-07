@@ -1,0 +1,14 @@
+Lab03: moving-target
+====================
+
+  Hijack the eip, and jump to a moving target, jump_to_here()!
+  
+  ./check-aslr.sh and see aslr-pie.png for your system's entrophy.
+  
+  The target binary is:
+  
+      CANARY    : disabled
+      FORTIFY   : disabled
+      NX        : ENABLED
+      PIE       : ENABLED
+      RELRO     : Partial
